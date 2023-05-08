@@ -6,16 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-}
+/*Em todo conteúdo CSS eu optei por fazer de forma manual sem usar Link externo para que assim eu podesse fixar os códigos na memória
+
+Mas em resumo, poderia fazer apenas um CSS externo com apenas 1 comando para todos os Links e midias disponíveis.
+*/
+
 
 body{
     background: url('../imagens/fundo-madeira.jpg');
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 main{
@@ -34,6 +36,7 @@ section#telefone{
     width: 311px;
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
+    
    
 }
 
@@ -43,6 +46,7 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 470px;
+    
 }
 
 section#redes-sociais{
